@@ -15495,4 +15495,36 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../public/fonts/Flaticon.woff") format("woff");
+  src: url("../../public/fonts/fontawesome-webfont.woff") format("woff");
+}
+body {
+  margin: 0;
+  font-family: "Flaticon", serif;
+}
+
+header {
+  background-image: url("../../public/images/banner1.jpg");
+}
+
+nav ul li:not(:nth-child(5)) {
+  padding: 15px;
+  border-bottom: solid 2px white;
+  border-top: solid 2px white;
+  text-transform: uppercase;
+}
+nav ul li:not(:nth-child(5)):hover {
+  background-color: red;
+}
+nav ul li:not(:nth-child(5)) a {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 /*# sourceMappingURL=style.css.map */
