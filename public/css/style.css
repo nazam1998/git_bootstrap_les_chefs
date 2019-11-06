@@ -15531,13 +15531,30 @@ nav ul li:not(:nth-child(5)) a {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-button {
+header button {
   padding: 10px;
   border-radius: 25px;
 }
 
-body > .about {
-  background-image: url(../../public/images/main_bg.jpg);
+.bottom-decoration {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+}
+
+.about {
+  background-image: url("./../public/images/main_bg.jpg");
+  background-size: contain;
+}
+.about > div {
+  margin: 5px 150px;
+}
+
+.menu-texte div {
+  font-size: 12px;
+}
+.menu-texte div img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,26 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="mb-5">
 
         <div class="carousel">
 
             <div id="carouselExampleIndicators" class="carousel slide p-5" data-ride="carousel">
-<!-- Nav bar -->
-                <nav class="text-white mb-5">
+                <!-- Nav bar -->
+                <nav class="text-white">
                     <ul class="list-unstyled row justify-content-center align-items-center">
                         <li class=""><a href="">Home</a></li>
                         <li class=""><a href="">About us</a></li>
@@ -92,419 +83,43 @@
     </header>
     <!-- Menu  -->
     <section class="about">
-
-        <div class="container bg-white text-center px-5">
-            <h1><span class="text-danger">Our</span> Story</h1>
-            <img src="public/images/decoration_line.png" alt="">
-            <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere facilis a accusantium
-                distinctio
-                voluptatem commodi. A dolor, nihil doloribus numquam, ut eius autem adipisci rem ex cum tenetur nobis
-                ducimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo deleniti saepe quidem eveniet qui
-                incidunt et dolores numquam assumenda officiis exercitationem quam ab tempora porro vel necessitatibus,
-                magni magnam aspernatur!</p>
-            <div>
-                <h1><span class="text-danger">Our</span> Menu List</h1>
+        <div class="bottom-decoration"></div>
+        <div class="border">
+            <img src="public/images/box-left-top.png" alt="" class="img-fluid float-left">
+            <img src="public/images/box-right-top.png" alt="" class="img-fluid float-right">
+            <div class="container bg-white text-center">
+                <h1><span class="text-danger">Our</span> Story</h1>
                 <img src="public/images/decoration_line.png" alt="">
-                <div class="menu">
-                    <div class="row">
-                        <div class="col-3">
-                            <!-- Menu avec nav sur le côté -->
-                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                                    role="tab" aria-controls="v-pills-home" aria-selected="true">Breakfast</a>
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                    role="tab" aria-controls="v-pills-profile" aria-selected="false">Lunch</a>
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
-                                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
-                                    aria-selected="false">Snacks</a>
-                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
-                                    href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
-                                    aria-selected="false">Dinner</a>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                    aria-labelledby="v-pills-home-tab">
-                                    <div class="container row">
-                                        <div class="container row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-                                                    magni
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Tempore odio quasi, minus perferendis maxime voluptate, fugiat
-                                                    impedit.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Sapiente, dolore sint, aliquam optio doloribus et necessitatibus
-                                                    libero ium.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam ratione suscipit optio necessitatibus, voluptas dolore ad ue
-                                                    perferendis!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aspernatur natus magnam obcaecati velit excepturi facere
-                                                    perferendis.am earum.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Accusamus nam pariatur quia consectetur molestiae distinctio earum
-                                                    error?</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Quasi quis neque, asperiores id optio at ut molestias rerum vel niet.
-                                                </p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam veniam dolore labore quaerat accusamus fugiat
-                                                    reiciendistemporibus alias!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nobis rem aut neque, nulla impedit accusantium soluta assumenda
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nostrum, inventore. Fugiat totam perspiciatis voluptatum ea nemo.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                    aria-labelledby="v-pills-profile-tab">
-                                    <div class="container row">
-                                        <div class="container row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-                                                    magni
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Tempore odio quasi, minus perferendis maxime voluptate, fugiat
-                                                    impedit.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Sapiente, dolore sint, aliquam optio doloribus et necessitatibus
-                                                    libero ium.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam ratione suscipit optio necessitatibus, voluptas dolore ad ue
-                                                    perferendis!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aspernatur natus magnam obcaecati velit excepturi facere
-                                                    perferendis.am earum.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Accusamus nam pariatur quia consectetur molestiae distinctio earum
-                                                    error?</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Quasi quis neque, asperiores id optio at ut molestias rerum vel niet.
-                                                </p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam veniam dolore labore quaerat accusamus fugiat
-                                                    reiciendistemporibus alias!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nobis rem aut neque, nulla impedit accusantium soluta assumenda
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nostrum, inventore. Fugiat totam perspiciatis voluptatum ea nemo.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                    aria-labelledby="v-pills-messages-tab">
-                                    <div class="container row">
-                                        <div class="container row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-                                                    magni
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Tempore odio quasi, minus perferendis maxime voluptate, fugiat
-                                                    impedit.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Sapiente, dolore sint, aliquam optio doloribus et necessitatibus
-                                                    libero ium.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam ratione suscipit optio necessitatibus, voluptas dolore ad ue
-                                                    perferendis!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aspernatur natus magnam obcaecati velit excepturi facere
-                                                    perferendis.am earum.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Accusamus nam pariatur quia consectetur molestiae distinctio earum
-                                                    error?</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Quasi quis neque, asperiores id optio at ut molestias rerum vel niet.
-                                                </p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam veniam dolore labore quaerat accusamus fugiat
-                                                    reiciendistemporibus alias!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nobis rem aut neque, nulla impedit accusantium soluta assumenda
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nostrum, inventore. Fugiat totam perspiciatis voluptatum ea nemo.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                    aria-labelledby="v-pills-settings-tab">
-                                    <div class="container row">
-                                        <div class="container row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-                                                    magni
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Tempore odio quasi, minus perferendis maxime voluptate, fugiat
-                                                    impedit.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Sapiente, dolore sint, aliquam optio doloribus et necessitatibus
-                                                    libero ium.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam ratione suscipit optio necessitatibus, voluptas dolore ad ue
-                                                    perferendis!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aspernatur natus magnam obcaecati velit excepturi facere
-                                                    perferendis.am earum.</p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Accusamus nam pariatur quia consectetur molestiae distinctio earum
-                                                    error?</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Quasi quis neque, asperiores id optio at ut molestias rerum vel niet.
-                                                </p>
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Aperiam veniam dolore labore quaerat accusamus fugiat
-                                                    reiciendistemporibus alias!</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nobis rem aut neque, nulla impedit accusantium soluta assumenda
-                                            </div>
-                                            <span class="badge badge-light">25$</span>
-                                        </div>
-                                        <div class="row col-6">
-                                            <img src="public/images/menu_image_1.jpg" alt="">
-                                            <div>
-                                                <h6>One pound tea</h6>
-                                                <p>Nostrum, inventore. Fugiat totam perspiciatis voluptatum ea nemo.</p>
-                                            </div>
-                                            <span class="badge badge-light">35$</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere facilis a accusantium
+                    distinctio
+                    voluptatem commodi. A dolor, nihil doloribus numquam, ut eius autem adipisci rem ex cum tenetur
+                    nobis
+                    ducimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo deleniti saepe quidem eveniet
+                    qui
+                    incidunt et dolores numquam assumenda officiis exercitationem quam ab tempora porro vel
+                    necessitatibus,
+                    magni magnam aspernatur!
+                </p>
+                <div>
+                    <h1><span class="text-danger">Our</span> Menu List</h1>
+                    <img src="public/images/decoration_line.png" alt="">
+                    <div class="menu">
 
+
+                    </div>
+
+                </div>
             </div>
-        </div>
     </section>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 
 </html>
