@@ -15495,11 +15495,7 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-@font-face {
-  font-family: "Flaticon";
-  src: url("../../public/fonts/Flaticon.woff") format("woff");
-  src: url("../../public/fonts/fontawesome-webfont.woff") format("woff");
-}
+@font-face font-family: "Flaticon" src: url("../../public/fonts/Flaticon.woff") format("woff") src: url("../../public/fonts/fontawesome-webfont.woff") format("woff");
 body {
   margin: 0;
   font-family: "Flaticon", serif;
@@ -15527,8 +15523,12 @@ nav ul li:not(:nth-child(5)) a {
   font-size: 75%;
 }
 
+.opa {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .carousel {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 header button {
@@ -15538,23 +15538,43 @@ header button {
 
 .bottom-decoration {
   background-image: url("../../public/images/bottom_decoration_img.png");
+  height: 10px;
 }
 
 .about {
-  background-image: url("./../public/images/main_bg.jpg");
-  background-size: contain;
+  background-image: url("../../public/images/main_bg.jpg");
+  padding: 100px;
 }
 .about > div {
   margin: 5px 150px;
 }
-
-.menu-texte div {
-  font-size: 12px;
+.about > img {
+  position: relative;
 }
+.about > img:first-child {
+  left: 0;
+}
+.about > img:nth-child(2) {
+  right: 0;
+}
+
 .menu-texte div img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  font-size: 12px;
+}
+
+.team {
+  background-image: url("../../public/images/team_background.jpg");
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+.team img hr {
+  padding: 5px;
+  color: white;
+  background-color: #ffffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

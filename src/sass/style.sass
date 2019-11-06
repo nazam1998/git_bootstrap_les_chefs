@@ -4,10 +4,7 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
-@font-face
-    font-family: "Flaticon"
-    src: url("../../public/fonts/Flaticon.woff") format("woff")
-    src: url("../../public/fonts/fontawesome-webfont.woff") format("woff")
+@font-face font-family: "Flaticon" src: url("../../public/fonts/Flaticon.woff") format("woff") src: url("../../public/fonts/fontawesome-webfont.woff") format("woff")
 $red: #ee0000
 body
     margin: 0
@@ -32,19 +29,30 @@ nav
                 color: white
                 text-decoration: none
                 font-size: 75%
+.opa
+    background-color: rgba(0,0,0,0.5)
+
 .carousel
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0,0,0.5)
+
 header
     button
         padding: 10px
         border-radius: 25px
 .bottom-decoration
-    background-image:  url("../../public/images/bottom_decoration_img.png")
+    background-image: url("../../public/images/bottom_decoration_img.png")
+    height: 10px
 .about
-    background-image: url("./../public/images/main_bg.jpg")
-    background-size: contain
+    background-image: url("../../public/images/main_bg.jpg")
+    padding: 100px
     &>div
         margin: 5px 150px
+    &>img
+            position: relative
+            &:first-child
+                    left:0
+            &:nth-child(2)
+                    right:0
 .menu-texte
     div
         img
@@ -52,4 +60,15 @@ header
             width: 50px
             border-radius: 50%
 
-        font-size: 12px 
+            font-size: 12px
+
+.team
+    background-image: url("../../public/images/team_background.jpg")
+    padding: 10px
+    background-color: rgba(0, 0, 0, 0.7)
+    width: 100%
+    img
+        hr
+            padding: 5px
+            color: white
+            background-color: #ffffffff
