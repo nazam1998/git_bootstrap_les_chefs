@@ -15548,14 +15548,13 @@ header button {
 .about > div {
   margin: 5px 150px;
 }
-.about > img {
-  position: relative;
+
+.table-blog {
+  background-image: url("../../public/images/main_bg.jpg");
+  padding: 100px;
 }
-.about > img:first-child {
-  left: 0;
-}
-.about > img:nth-child(2) {
-  right: 0;
+.table-blog > div {
+  margin: 5px 150px;
 }
 
 .menu-texte div img {
@@ -15570,6 +15569,18 @@ header button {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
+}
+
+.form {
+  padding: 50px;
+  background-image: url("../../public/images/book_table_bg.jpg");
+}
+.form form span {
+  font-size: 50%;
+  margin-bottom: 20px;
+}
+.form form span span {
+  font-size: 150%;
 }
 
 /*# sourceMappingURL=style.css.map */
