@@ -15495,10 +15495,6 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-@font-face {
-  font-family: "Flaticon";
-  src: url("../../public/fonts/Flaticon.woff") format("woff"), url("../../public/fonts/fontawesome-webfont.woff") format("woff");
-}
 body {
   margin: 0;
   font-family: "Flaticon", sans-serif;
@@ -15612,6 +15608,27 @@ header input {
 
 .big-num {
   font-size: 18px;
+}
+
+.testimonials {
+  background-image: url(../../public/images/testimonials_background.jpg);
+  background-position: bottom;
+}
+.testimonials #bg-testimonials {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.testimonials .client div img {
+  height: 50%;
+  margin-top: 12px;
+  border-radius: 50%;
+  border: solid 1px #cccccc;
+}
+.testimonials .client div .txt-client {
+  border: solid 1px white;
+  height: 75%;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
