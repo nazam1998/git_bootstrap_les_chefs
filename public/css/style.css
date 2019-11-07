@@ -15495,10 +15495,13 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-@font-face font-family: "Flaticon" src: url("../../public/fonts/Flaticon.woff") format("woff") src: url("../../public/fonts/fontawesome-webfont.woff") format("woff");
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../public/fonts/Flaticon.woff") format("woff"), url("../../public/fonts/fontawesome-webfont.woff") format("woff");
+}
 body {
   margin: 0;
-  font-family: "Flaticon", serif;
+  font-family: "Flaticon", sans-serif;
 }
 
 header {
@@ -15523,15 +15526,15 @@ nav ul li:not(:nth-child(5)) a {
   font-size: 75%;
 }
 
-.opa {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .carousel {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 header button {
+  padding: 10px;
+  border-radius: 25px;
+}
+header input {
   padding: 10px;
   border-radius: 25px;
 }
@@ -15574,13 +15577,41 @@ header button {
 .form {
   padding: 50px;
   background-image: url("../../public/images/book_table_bg.jpg");
+  margin: 10px 20px;
+}
+.form form input, .form form select {
+  padding: 10px 5px;
+  font-size: 20px;
+  border-radius: 40px;
+}
+.form form button {
+  font-size: 75%;
+  padding: 15px;
+  border-radius: 40px;
 }
 .form form span {
-  font-size: 50%;
+  font-size: 100%;
   margin-bottom: 20px;
 }
 .form form span span {
   font-size: 150%;
+}
+
+.blog .row .col-5 img {
+  width: 100%;
+  border: solid 3px #cccccc;
+  border-radius: 12px;
+}
+.blog .row .col-5 .bg-danger {
+  position: relative;
+  top: -23px;
+}
+.blog button {
+  border-radius: 50px;
+}
+
+.big-num {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

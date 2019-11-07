@@ -4,11 +4,14 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
-@font-face font-family: "Flaticon" src: url("../../public/fonts/Flaticon.woff") format("woff") src: url("../../public/fonts/fontawesome-webfont.woff") format("woff")
+@font-face
+    font-family: "Flaticon"
+    src: url("../../public/fonts/Flaticon.woff") format("woff"), url("../../public/fonts/fontawesome-webfont.woff") format("woff")
+
 $red: #ee0000
 body
     margin: 0
-    font-family: "Flaticon", serif
+    font-family: "Flaticon", sans-serif
 header
     background-image: url("../../public/images/banner1.jpg")
     background-size: cover
@@ -29,14 +32,16 @@ nav
                 color: white
                 text-decoration: none
                 font-size: 75%
-.opa
-    background-color: rgba(0,0,0,0.5)
 
 .carousel
     background-color: rgba(0, 0,0,0.5)
 
 header
     button
+        padding: 10px
+        border-radius: 25px
+    input
+
         padding: 10px
         border-radius: 25px
 .bottom-decoration
@@ -69,9 +74,32 @@ header
 .form
     padding: 50px
     background-image: url("../../public/images/book_table_bg.jpg")
-    form 
+    margin: 10px 20px
+    form
+        input, select
+            padding: 10px 5px
+            font-size: 20px
+            border-radius: 40px
+        button
+            font-size: 75%
+            padding: 15px
+            border-radius: 40px
         span
-            font-size: 50%
+            font-size: 100%
             margin-bottom: 20px
             span
                 font-size: 150%
+.blog
+    .row
+        .col-5
+            img
+                width: 100%
+                border: solid 3px #cccccc
+                border-radius: 12px
+            .bg-danger 
+                position: relative
+                top: -23px
+    button
+            border-radius: 50px
+.big-num
+    font-size: 18px
