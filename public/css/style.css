@@ -15522,11 +15522,7 @@ nav ul li:not(:nth-child(5)) a {
   font-size: 75%;
 }
 
-.carousel {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.opa {
+.darker {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -15618,9 +15614,6 @@ header input {
   background-image: url(../../public/images/testimonials_background.jpg);
   background-position: bottom;
 }
-.testimonials #bg-testimonials {
-  background-color: rgba(0, 0, 0, 0.7);
-}
 .testimonials .client div img {
   height: 50%;
   margin-top: 12px;
@@ -15641,6 +15634,23 @@ header input {
 .contact .carte {
   border-radius: 12px;
   width: 30%;
+}
+
+.footer {
+  background-image: url(../../public/images/footer_background.jpg);
+}
+.footer button {
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.footer-bottom {
+  background-image: url(../../public/images/footer_bottom_decoration_img.png);
+  height: 10px;
+}
+
+.footer-red {
+  height: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
