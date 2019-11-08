@@ -1,8 +1,10 @@
-# Site Bootstrap les chefs
+# Site Culinaire
 
-**site fait avec :**
--Html
--Emmet
--Css
--Sass
--
+**utilisé pour faire le site :**
+
+- Html
+- Emmet
+- Css
+- Sass
+- Font awesome
+- Flaticon
