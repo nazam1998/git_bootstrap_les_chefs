@@ -15514,7 +15514,7 @@ nav ul li:not(:nth-child(5)) {
   text-transform: uppercase;
 }
 nav ul li:not(:nth-child(5)):hover {
-  background-color: red;
+  background-color: #ee0000;
 }
 nav ul li:not(:nth-child(5)) a {
   color: white;
@@ -15556,10 +15556,20 @@ header input {
   margin: 5px 150px;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link, .nav-pills .nav-link.active, .nav .show > .nav-link {
   color: #000000;
   background-color: #ffffff;
-  border-right-color: #dc3545;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.nav-pills .nav-link:hover, .nav-pills .nav-link:focus, .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus, .nav .show > .nav-link:hover, .nav .show > .nav-link:focus {
+  border-right: 5px solid #dc3545;
+}
+.nav-pills .nav-link:hover i, .nav-pills .nav-link:focus i, .nav-pills .nav-link.active:hover i, .nav-pills .nav-link.active:focus i, .nav .show > .nav-link:hover i, .nav .show > .nav-link:focus i {
+  color: #dc3545;
+}
+.nav-pills .nav-link i, .nav-pills .nav-link.active i, .nav .show > .nav-link i {
+  color: #cccccc;
 }
 
 .menu-texte div img {
@@ -15570,6 +15580,9 @@ header input {
 }
 .menu-texte div span {
   font-size: 12px;
+}
+.menu-texte div .badge {
+  height: 30%;
 }
 
 .team {
@@ -15645,10 +15658,12 @@ header input {
   width: 30%;
 }
 
+.footer {
+  background-image: url(../../public/images/footer_background.jpg);
+}
 .footer button {
   border-radius: 12px;
   white-space: nowrap;
-  background-image: url(../../public/images/footer_background.jpg);
 }
 
 .footer-bottom {

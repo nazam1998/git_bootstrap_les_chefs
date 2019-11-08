@@ -8,7 +8,7 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 // font-family: "Flaticon"
 // src: url("../../public/fonts/Flaticon.woff") format("woff"), url("../../public/fonts/fontawesome-webfont.woff") format("woff")
 
-$red: #ee0000
+$danger: #dc3545
 body
     margin: 0
     font-family: "Flaticon", sans-serif
@@ -27,7 +27,7 @@ nav
             text-transform: uppercase
 
             &:hover
-                background-color: red
+                background-color: #ee0000
             a
                 color: white
                 text-decoration: none
@@ -56,20 +56,31 @@ header
     padding: 100px
     &>div
         margin: 5px 150px
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link
+.nav-pills .nav-link, .nav-pills .nav-link.active, .nav .show > .nav-link
     color: #000000
+    
     background-color: #ffffff
-    border-right-color: #dc3545
+    border-right: 1px solid black
+    border-bottom: 1px solid black
+    &:hover, &:focus
+        border-right: 5px solid $danger
+        i
+            color: $danger
+    i 
+        color: #cccccc
 
 .menu-texte
     div
+
         img
             height: 50px
             width: 50px
             border-radius: 50%
             font-size: 12px
-        span 
+        span
             font-size: 12px
+        .badge
+            height: 30%
 
 .team
     background-image: url("../../public/images/team_background.jpg")
@@ -130,11 +141,10 @@ header
         border-radius: 12px
         width: 30%
 .footer
+    background-image: url(../../public/images/footer_background.jpg)
     button
         border-radius: 12px
         white-space: nowrap
-
-        background-image: url(../../public/images/footer_background.jpg)
 .footer-bottom
     background-image: url(../../public/images/footer_bottom_decoration_img.png)
     height: 10px
