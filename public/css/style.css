@@ -15526,6 +15526,10 @@ nav ul li:not(:nth-child(5)) a {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.opa {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 header button {
   padding: 10px;
   border-radius: 25px;
@@ -15573,7 +15577,7 @@ header input {
 .form {
   padding: 50px;
   background-image: url("../../public/images/book_table_bg.jpg");
-  margin: 10px 20px;
+  margin: 10px 5px;
 }
 .form form input, .form form select {
   padding: 10px 5px;
@@ -15629,6 +15633,14 @@ header input {
   border-radius: 12px;
   padding: 20px;
   font-size: 90%;
+}
+
+.contact {
+  background-image: url(../../public/images/main_bg.jpg);
+}
+.contact .carte {
+  border-radius: 12px;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
