@@ -15578,8 +15578,8 @@ header input {
   border-radius: 50%;
   font-size: 12px;
 }
-.menu-texte div span {
-  font-size: 12px;
+.menu-texte div h6, .menu-texte div p {
+  font-size: 10px;
 }
 .menu-texte div .badge {
   height: 30%;
@@ -15596,6 +15596,7 @@ header input {
   padding: 50px;
   background-image: url("../../public/images/book_table_bg.jpg");
   margin: 10px 5px;
+  width: 80%;
 }
 .form form input, .form form select {
   padding: 10px 5px;
@@ -15673,6 +15674,22 @@ header input {
 
 .footer-red {
   height: 70px;
+}
+
+@media (max-width: 576px) {
+  .contact p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer img {
+    margin-left: 80px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
