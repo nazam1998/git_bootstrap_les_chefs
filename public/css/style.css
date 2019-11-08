@@ -15567,6 +15567,9 @@ header input {
   border-radius: 50%;
   font-size: 12px;
 }
+.menu-texte div span {
+  font-size: 12px;
+}
 
 .team {
   background-image: url("../../public/images/team_background.jpg");
