@@ -15556,6 +15556,11 @@ header input {
   margin: 5px 150px;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .menu-texte div img {
   height: 50px;
   width: 50px;
@@ -15636,12 +15641,10 @@ header input {
   width: 30%;
 }
 
-.footer {
-  background-image: url(../../public/images/footer_background.jpg);
-}
 .footer button {
   border-radius: 12px;
   white-space: nowrap;
+  background-image: url(../../public/images/footer_background.jpg);
 }
 
 .footer-bottom {
