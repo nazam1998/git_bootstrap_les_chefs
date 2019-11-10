@@ -15677,36 +15677,58 @@ header input {
   height: 70px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   body {
-    width: 100%;
-    height: 100%;
     overflow-x: hidden;
   }
 
-  nav {
-    position: absolute;
+  nav, .navbar {
+    z-index: 10;
+    position: fixed;
+    background-color: #dc3545;
+    padding-bottom: 20px;
+    width: 100%;
   }
-  nav i {
+  nav ul, .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  nav ul img, .navbar ul img {
+    display: none;
+  }
+  nav ul li:not(:nth-child(5)), .navbar ul li:not(:nth-child(5)) {
+    border-bottom: hidden;
+    border-top: hidden;
+  }
+  nav i, .navbar i {
     color: white;
-    padding: 10px;
+    padding: 5px 5px;
     background-color: #dc3545;
   }
 
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   section > div {
     width: 100%;
   }
-
-  .container {
+  section .container {
     width: 100%;
-    padding: 0 10px;
   }
 
   .table-blog {
     margin: auto;
   }
+  .table-blog form span {
+    font-size: 70%;
+  }
   .table-blog form input, .table-blog form select {
-    padding: 1px 10px;
+    padding: 1px 20px;
   }
 
   .blog .row .col-lg-5 img {
